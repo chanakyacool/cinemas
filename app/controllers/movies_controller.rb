@@ -5,6 +5,5 @@ class MoviesController < ApplicationController
 	end
 
 	def search
-		
 	end
 end
