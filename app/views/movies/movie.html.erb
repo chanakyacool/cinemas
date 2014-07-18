@@ -1,0 +1,34 @@
+<div class="container">  
+            <div class="row row-margin-bottom">
+            <div class="col-md-5 no-padding lib-item" data-category="view">
+                <div class="lib-panel">
+                    <div class="row box-shadow">
+                        <div class="col-md-6">
+                            <img class="lib-img-show" src="<%= @top_250[:poster_url]%>">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lib-row lib-header">
+                                  <%= @top_250[:title] %>
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc name">
+                               <li>Imdb Id :-  <%= @top_250[:imdb_id] %></li>
+                                  <li>Year :- <%= @top_250[:year] %> </li>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div> 
+        </div>
+</div>
+ <style type="text/css">
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+li{
+    list-style: none;
+}
+ </style>
