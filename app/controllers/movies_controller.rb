@@ -5,5 +5,6 @@ class MoviesController < ApplicationController
 	end
 
 	def search
+		#this is a serach fielkd
 	end
 end
